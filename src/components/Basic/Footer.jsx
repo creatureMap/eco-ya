@@ -1,5 +1,5 @@
 import styles from "styled-components";
-import logo from "../../assets/logo_eco.png";
+import logo from "@/assets/logo_eco.png";
 
 const FooterWrapper = styles.footer`
     position: relative;

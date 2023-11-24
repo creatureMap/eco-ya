@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home.jsx";
-import NavigationBar from "./components/Basic/NavigationBar.jsx";
-import Footer from "./components/Basic/Footer.jsx";
+import NavigationBar from "@/components/Basic/NavigationBar.jsx";
+import Footer from "@/components/Basic/Footer.jsx";
+import Home from "@/pages/Home/Home.jsx";
 
 function Router() {
   return (
@@ -10,6 +10,7 @@ function Router() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/map" element={<Home />} />
+        <Route path={"*"} element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>

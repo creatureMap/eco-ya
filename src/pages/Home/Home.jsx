@@ -1,4 +1,4 @@
-import KakaoMap from "../../components/kakaomap.jsx";
+import KakaoMap from "@/pages/Map/kakaomap.jsx";
 import styled from "styled-components";
 
 const Container = styled.div`
