@@ -10,6 +10,7 @@ function Router() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/map" element={<Home />} />
+        <Route path={"*"} element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>
